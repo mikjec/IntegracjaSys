@@ -13,7 +13,6 @@ internal class XMLReadWithXLSTDOM
         XmlNamespaceManager manager = new XmlNamespaceManager(navigator.NameTable);
         manager.AddNamespace("x", "http://rejestry.ezdrowie.gov.pl/rpl/eksport-danych-v6.0.0");
 
-        // UWAGA: Zmieniłem @postac na @nazwaPostaciFarmaceutycznej, bo tak miałeś w XML
         XPathExpression query = navigator.Compile("/x:produktyLecznicze/x:produktLeczniczy[@nazwaPostaciFarmaceutycznej='Krem' and @nazwaPowszechnieStosowana='Mometasoni furoas']");
         query.SetContext(manager);
 
@@ -22,13 +21,12 @@ internal class XMLReadWithXLSTDOM
 
         Console.WriteLine("Liczba produktów (XPath): {0}", count);
 
-        // Sekcja TOP 3
         XPathNodeIterator allProducts = navigator.Select("/x:produktyLecznicze/x:produktLeczniczy", manager);
         Dictionary<string, HashSet<string>> creamCompaniesMap = new Dictionary<string, HashSet<string>>();
 
         while (allProducts.MoveNext())
         {
-            // Tutaj też musisz użyć dokładnych nazw z pliku XML!
+
             string drugForm = allProducts.Current.GetAttribute("nazwaPostaciFarmaceutycznej", "");
             string commonName = allProducts.Current.GetAttribute("nazwaPowszechnieStosowana", "");
             string company = allProducts.Current.GetAttribute("podmiotOdpowiedzialny", "");

@@ -13,3 +13,19 @@ C:\Users\Mikołaj\source\repos\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\refint\
 C:\Users\Mikołaj\source\repos\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.pdb
 C:\Users\Mikołaj\source\repos\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.genruntimeconfig.cache
 C:\Users\Mikołaj\source\repos\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\ref\IS_Lab1_XML.dll
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\bin\Debug\net10.0\IS_Lab1_XML.exe
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\bin\Debug\net10.0\assets\data.xml
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\bin\Debug\net10.0\IS_Lab1_XML.deps.json
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\bin\Debug\net10.0\IS_Lab1_XML.runtimeconfig.json
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\bin\Debug\net10.0\IS_Lab1_XML.dll
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\bin\Debug\net10.0\IS_Lab1_XML.pdb
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.AssemblyInfo.cs
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.sourcelink.json
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.dll
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\refint\IS_Lab1_XML.dll
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.pdb
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\IS_Lab1_XML.genruntimeconfig.cache
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\IS_Lab1_XML\IS_Lab1_XML\obj\Debug\net10.0\ref\IS_Lab1_XML.dll

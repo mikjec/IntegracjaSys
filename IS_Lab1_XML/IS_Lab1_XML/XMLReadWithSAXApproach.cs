@@ -4,14 +4,14 @@ internal class XMLReadWithSAXApproach
 {
     internal static void Read(string filepath)
     {
-        // konfiguracja początkowa dla XmlReadera
+        
         XmlReaderSettings settings = new XmlReaderSettings();
         settings.IgnoreComments = true;
         settings.IgnoreProcessingInstructions = true;
         settings.IgnoreWhitespace = true;
-        // odczyt zawartości dokumentu
+  
         XmlReader reader = XmlReader.Create(filepath, settings);
-        // zmienne pomocnicze
+        
         int count = 0;
         string postac = "";
         string sc = "";
@@ -21,7 +21,7 @@ internal class XMLReadWithSAXApproach
         Dictionary<string, HashSet<string>> creamCompaniesMap = new Dictionary<string, HashSet<string>>();
 
         reader.MoveToContent();
-        // analiza każdego z węzłów dokumentu
+
 
         while (reader.Read())
         {

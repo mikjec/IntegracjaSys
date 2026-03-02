@@ -11,35 +11,32 @@ internal class XMLReadWithDOMApproach
 
         string postac;
         string sc;
-        string comp; // podmiot odpowiedzialny
+        string comp;
         int count = 0;
 
         var drugs = doc.GetElementsByTagName("produktLeczniczy");
 
-        // Twoje mapy + mapy dla firm
         Dictionary<string, HashSet<string>> substanceFormsMap = new Dictionary<string, HashSet<string>>();
         Dictionary<string, HashSet<string>> creamCompaniesMap = new Dictionary<string, HashSet<string>>();
         Dictionary<string, HashSet<string>> tabCompaniesMap = new Dictionary<string, HashSet<string>>();
 
         foreach (XmlNode d in drugs)
         {
-            // Pobieranie atrybutów
+
             postac = d.Attributes.GetNamedItem("nazwaPostaciFarmaceutycznej").Value;
             sc = d.Attributes.GetNamedItem("nazwaPowszechnieStosowana").Value;
             comp = d.Attributes.GetNamedItem("podmiotOdpowiedzialny").Value;
 
-            // 1. Liczenie kremu Mometasoni
+         
             if (postac == "Krem" && sc == "Mometasoni furoas")
                 count++;
 
-            // 2. Mapowanie postaci dla substancji
             if (!substanceFormsMap.ContainsKey(sc))
             {
                 substanceFormsMap[sc] = new HashSet<string>();
             }
             substanceFormsMap[sc].Add(postac);
 
-            // 3. Statystyki dla firm - KREMY
             if (postac == "Krem")
             {
                 if (!creamCompaniesMap.ContainsKey(comp))
@@ -49,7 +46,6 @@ internal class XMLReadWithDOMApproach
                 creamCompaniesMap[comp].Add(sc);
             }
 
-            // 4. Statystyki dla firm - TABLETKI
             if (postac == "Tabletki")
             {
                 if (!tabCompaniesMap.ContainsKey(comp))
@@ -60,8 +56,6 @@ internal class XMLReadWithDOMApproach
             }
         }
 
-        // --- WYŚWIETLANIE WYNIKÓW ---
-
         Console.WriteLine("Liczba produktów leczniczych w postaci kremu, których jedyną substancją czynną jest Mometasoni furoas {0}", count);
 
         count = 0;
@@ -71,7 +65,7 @@ internal class XMLReadWithDOMApproach
         }
         Console.WriteLine("Liczba produktów leczniczych o takiej samej nazwie powszechnej i pod różnymi postaciami {0}", count);
 
-        // Szukanie lidera kremów
+
         string topCreamCompany = "";
         int maxCreams = 0;
         foreach (var entry in creamCompaniesMap)
@@ -83,7 +77,6 @@ internal class XMLReadWithDOMApproach
             }
         }
 
-        // Szukanie lidera tabletek
         string topTabCompany = "";
         int maxTabs = 0;
         foreach (var entry in tabCompaniesMap)
