@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D460776D-66C8-C2C0-6272-CCC080C2F3A6}|IS_Lab1_XML\\IS_Lab1_XML.csproj|solutionrelative:is_lab1_xml\\xmlreadwithxlstdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D460776D-66C8-C2C0-6272-CCC080C2F3A6}|IS_Lab1_XML\\IS_Lab1_XML.csproj|c:\\users\\mikolaj\\documents\\integracja sys\\integracjasys\\is_lab1_xml\\is_lab1_xml\\xmlreadwithdomapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D460776D-66C8-C2C0-6272-CCC080C2F3A6}|IS_Lab1_XML\\IS_Lab1_XML.csproj|solutionrelative:is_lab1_xml\\xmlreadwithdomapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D460776D-66C8-C2C0-6272-CCC080C2F3A6}|IS_Lab1_XML\\IS_Lab1_XML.csproj|c:\\users\\mikolaj\\documents\\integracja sys\\integracjasys\\is_lab1_xml\\is_lab1_xml\\xmlreadwithsaxapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D460776D-66C8-C2C0-6272-CCC080C2F3A6}|IS_Lab1_XML\\IS_Lab1_XML.csproj|solutionrelative:is_lab1_xml\\xmlreadwithsaxapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D460776D-66C8-C2C0-6272-CCC080C2F3A6}|IS_Lab1_XML\\IS_Lab1_XML.csproj|c:\\users\\mikolaj\\documents\\integracja sys\\integracjasys\\is_lab1_xml\\is_lab1_xml\\xmlreadwithdomapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D460776D-66C8-C2C0-6272-CCC080C2F3A6}|IS_Lab1_XML\\IS_Lab1_XML.csproj|solutionrelative:is_lab1_xml\\xmlreadwithdomapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D460776D-66C8-C2C0-6272-CCC080C2F3A6}|IS_Lab1_XML\\IS_Lab1_XML.csproj|c:\\users\\mikolaj\\documents\\integracja sys\\integracjasys\\is_lab1_xml\\is_lab1_xml\\advancedxmlanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "IS_Lab1_XML\\AdvancedXMLAnalysis.cs",
               "ToolTip": "C:\\Users\\Mikolaj\\Documents\\Integracja Sys\\IntegracjaSys\\IS_Lab1_XML\\IS_Lab1_XML\\AdvancedXMLAnalysis.cs",
               "RelativeToolTip": "IS_Lab1_XML\\AdvancedXMLAnalysis.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCMAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T12:14:57.39Z",
               "EditorCaption": ""
@@ -57,20 +57,20 @@
               "RelativeDocumentMoniker": "IS_Lab1_XML\\XMLReadWithXLSTDOM.cs",
               "ToolTip": "C:\\Users\\Mikolaj\\Documents\\Integracja Sys\\IntegracjaSys\\IS_Lab1_XML\\IS_Lab1_XML\\XMLReadWithXLSTDOM.cs",
               "RelativeToolTip": "IS_Lab1_XML\\XMLReadWithXLSTDOM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T21:21:50.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "XMLReadWithSAXApproach.cs",
               "DocumentMoniker": "C:\\Users\\Mikolaj\\Documents\\Integracja Sys\\IntegracjaSys\\IS_Lab1_XML\\IS_Lab1_XML\\XMLReadWithSAXApproach.cs",
               "RelativeDocumentMoniker": "IS_Lab1_XML\\XMLReadWithSAXApproach.cs",
               "ToolTip": "C:\\Users\\Mikolaj\\Documents\\Integracja Sys\\IntegracjaSys\\IS_Lab1_XML\\IS_Lab1_XML\\XMLReadWithSAXApproach.cs",
               "RelativeToolTip": "IS_Lab1_XML\\XMLReadWithSAXApproach.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T18:28:57.692Z",
               "EditorCaption": ""
@@ -85,18 +85,17 @@
               "RelativeToolTip": "IS_Lab1_XML\\assets\\data.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-01T16:54:12.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T16:54:12.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "XMLReadWithDOMApproach.cs",
               "DocumentMoniker": "C:\\Users\\Mikolaj\\Documents\\Integracja Sys\\IntegracjaSys\\IS_Lab1_XML\\IS_Lab1_XML\\XMLReadWithDOMApproach.cs",
               "RelativeDocumentMoniker": "IS_Lab1_XML\\XMLReadWithDOMApproach.cs",
               "ToolTip": "C:\\Users\\Mikolaj\\Documents\\Integracja Sys\\IntegracjaSys\\IS_Lab1_XML\\IS_Lab1_XML\\XMLReadWithDOMApproach.cs",
               "RelativeToolTip": "IS_Lab1_XML\\XMLReadWithDOMApproach.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAgwGcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T16:45:05.048Z",
               "EditorCaption": ""
@@ -111,8 +110,7 @@
               "RelativeToolTip": "IS_Lab1_XML\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T16:19:17.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T16:19:17.175Z"
             }
           ]
         }
