@@ -22,15 +22,7 @@
  {
   "Kod_TERYT": "0202011",
   "nazwa_samorządu": "Bielawa",
-  "Wojewlst.append({
-                "Kod_TERYT": dep['Kod_TERYT'],
-                "Województwo": dep['Województwo'],
-                "Powiat": dep['Powiat'],
-                "typ_JST": dep['typ_JST'],
-                "nazwa_urzędu_JST": dep['nazwa_urzędu_JST'],
-                "miejscowość": dep['miejscowość'],
-                "telefon_z_numerem_kierunkowym": (str(dep['telefon kierunkowy']) + str(dep['telefon'])),
-            })ództwo": "dolnośląskie",
+  "Województwo": "dolnośląskie",
   "Powiat": "dzierżoniowski",
   "typ_JST": "GM",
   "nazwa_urzędu_JST": "Urząd Miejski w Bielawie",
