@@ -4,6 +4,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
+import java.io.File;
+import java.nio.file.Files;
 import java.util.List;
 
 public class Main {
@@ -93,6 +95,34 @@ public class Main {
         em.persist(group1);
 
         em.getTransaction().commit();
+
+        System.out.println("\n--- Zapis danych binarnych (Obrazek) ---");
+        em.getTransaction().begin();
+        try {
+
+            File file = new File("test_avatar.png");
+
+            if (file.exists()) {
+                byte[] imageBytes = Files.readAllBytes(file.toPath());
+
+                User userWithImage = new User(null, "avatar_user", "pass123", "Jan", "Obrazkowy", Sex.MALE);
+
+                userWithImage.setAvatar(imageBytes);
+
+                em.persist(userWithImage);
+                em.getTransaction().commit();
+
+                System.out.println("Zapisano użytkownika z obrazkiem pomyślnie! Rozmiar w bajtach: " + imageBytes.length);
+            } else {
+                System.out.println("BŁĄD: Plik obrazka nie istnieje! Dodaj 'test_avatar.jpg' by przetestować.");
+                em.getTransaction().rollback();
+            }
+
+        } catch (Exception e) {
+            System.out.println("Wystąpił wyjątek podczas wczytywania/zapisu obrazka: " + e.getMessage());
+            em.getTransaction().rollback();
+            e.printStackTrace();
+        }
 
         em.close();
         factory.close();

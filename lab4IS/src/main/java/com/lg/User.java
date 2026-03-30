@@ -33,6 +33,10 @@ public class User {
     @ManyToMany(cascade = CascadeType.ALL)
     private Set<UsersGroup> groups = new HashSet<>();
 
+    @Lob
+    @Column(name = "avatar", columnDefinition = "LONGBLOB")
+    private byte[] avatar;
+
     public User() {
     }
 
@@ -107,5 +111,13 @@ public class User {
 
     public void setSex(Sex sex) {
         this.sex = sex;
+    }
+
+    public byte[] getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(byte[] avatar) {
+        this.avatar = avatar;
     }
 }
