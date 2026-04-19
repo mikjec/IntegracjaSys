@@ -58,7 +58,12 @@ class Cities
         );
 
         $stmt->bind_param("i", $this->id);
+        $stmt->execute();
 
-        return $stmt->execute();
+        if ($stmt->affected_rows > 0) {
+            return true;
+        }
+
+        return false;
     }
 }
