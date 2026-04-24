@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IS_Lab5_SOAPCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35bde8814f6013bebb3461f9c4fa61657cdd9ef4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01bae30f51bb1ccd75e4303e7504309a524b3014")]
 [assembly: System.Reflection.AssemblyProductAttribute("IS_Lab5_SOAPCS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IS_Lab5_SOAPCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

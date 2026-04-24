@@ -1,0 +1,17 @@
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\bin\Debug\net10.0-windows\JWTClient.exe
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\bin\Debug\net10.0-windows\JWTClient.deps.json
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\bin\Debug\net10.0-windows\JWTClient.runtimeconfig.json
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\bin\Debug\net10.0-windows\JWTClient.dll
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\bin\Debug\net10.0-windows\JWTClient.pdb
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.Form1.resources
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.csproj.GenerateResource.cache
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.AssemblyInfo.cs
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.sourcelink.json
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.dll
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\refint\JWTClient.dll
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.pdb
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\JWTClient.genruntimeconfig.cache
+C:\Users\Mikolaj\Documents\Integracja Sys\IntegracjaSys\JWTClient\JWTClient\obj\Debug\net10.0-windows\ref\JWTClient.dll

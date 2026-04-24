@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "5hduvmXShXA=",
+  "success": true,
+  "projectFilePath": "D:\\Studia\\Integracja_Systemów\\Lab_8\\Lab_8\\Lab_8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.6\\microsoft.aspnetcore.authentication.jwtbearer.10.0.6.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.17.0\\microsoft.identitymodel.abstractions.8.17.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.17.0\\microsoft.identitymodel.jsonwebtokens.8.17.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.identitymodel.logging\\8.17.0\\microsoft.identitymodel.logging.8.17.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.0.1\\microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.0.1\\microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.17.0\\microsoft.identitymodel.tokens.8.17.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.17.0\\system.identitymodel.tokens.jwt.8.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

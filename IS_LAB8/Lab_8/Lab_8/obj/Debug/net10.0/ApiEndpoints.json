@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "Lab_8.Controllers.NumbersController",
+    "Method": "GetRandomPrime",
+    "RelativePath": "api/Numbers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab_8.Controllers.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab_8.Controllers.UsersController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Users/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Lab_8.Model.AuthenticationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab_8.Controllers.UsersController",
+    "Method": "GetCount",
+    "RelativePath": "api/Users/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
